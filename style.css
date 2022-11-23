@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 800px;
+  margin: 0 auto;
+}
+.header-area,
+.menu ul {
+  display: flex;
+}
+.header-area {
+  justify-content: space-between;
+  align-items: center;
+}
+.menu li {
+  list-style: none;
+}
+.menu ul li {
+  margin: 0 10px;
+}
+a {
+  text-decoration: none;
+}
+.book-table-btn {
+  background-color: orangered;
+  display: inline-block;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 50px;
+}
+.main-area {
+  display: flex;
+  align-items: center;
+}
+.hero-text {
+  padding-right: 10px;
+}
+.hero-image {
+  padding-left: 10px;
+}
+main {
+  background-color: rgb(88, 103, 58);
+  padding: 50px 0px;
+}
+header {
+  padding: 20px 0;
+}
+.hero-text h2,
+.hero-text p {
+  margin-bottom: 20px;
+  font-style: italic;
+}
